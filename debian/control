@@ -1,0 +1,13 @@
+Source: latex2png
+Section: misc
+Priority: optional
+Maintainer: Jeremie Decock <jd.jdhp@gmail.com>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+Homepage: http://www.jdhp.org
+
+Package: latex2png
+Architecture: all
+Depends: bash, grep, sed, texlive-latex-base, dvipng
+Description: Turn a LaTeX file into PNG
+ Converts LaTeX files to PNG graphics (useful to create mathematical formulas as images).
