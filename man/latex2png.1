@@ -1,0 +1,44 @@
+.TH LATEX2PNG "1" "February 2011" "latex2png 1.0" "User Commands"
+.SH NAME
+latex2png \- turn a LaTeX file into PNG
+.SH SYNOPSIS
+.B latex2png
+\fITEX_FILE\fR
+
+.B latex2png
+[\fIOPTION\fR]
+.SH DESCRIPTION
+Converts LaTeX files to PNG graphics (useful to create mathematical formulas as images).
+.IP
+.SH OPTIONS
+.TP
+\fB\-h\fR, \fB\-\-help\fR
+display this help and exit
+.TP
+\fB\-v\fR, \fB\-\-version\fR
+output version information and exit
+.SH EXAMPLE
+Given a example.tex file like this:
+.RS 4
+.nf
+\\documentclass{minimal}
+\\begin{document}
+$$
+    \\int_a^b f(x)dx\\,
+$$
+\\end{document}
+.fi
+.RE
+you can convert it to PNG graphics using:
+.RS 4
+latex2png example.tex
+.RE
+
+See documentation directory (usually /usr/share/doc/latex2png) for more examples.
+.SH "REPORTING BUGS"
+Report bugs to <jd.jdhp@gmail.com>
+.SH COPYRIGHT
+Copyright \(co 2008,2011 Jeremie DECOCK (http://www.jdhp.org)
+.br
+This is free software; see the source for copying conditions.
+There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
