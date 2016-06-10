@@ -1,0 +1,13 @@
+% See http://tex.stackexchange.com/questions/50162/how-to-make-a-standalone-document-with-one-equation
+\documentclass[varwidth]{standalone}
+
+\usepackage{amssymb,amsmath,cancel}
+
+\begin{document}
+
+% Standard Model Lagrangian
+$$
+\mathcal{L} = - \frac{1}{4} F_{\mu \nu} F^{\mu \nu} + i \bar{\psi} \cancel{D} \psi + h.c. + \bar{\psi}_i y_{ij} \psi_j \phi + h.c. + |D_\mu \phi|^2 - V(\phi)
+$$
+
+\end{document}
