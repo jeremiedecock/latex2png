@@ -1,6 +1,6 @@
 # Latex2png
 
-Copyright (c) 2016 Jeremie DECOCK (http://www.jdhp.org)
+Copyright (c) 2008,2011,2016 Jeremie DECOCK (http://www.jdhp.org)
 
 - Web site: <http://www.jdhp.org/projects_en.html>
 - Source code: <https://github.com/jeremiedecock/latex2png>
