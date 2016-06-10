@@ -30,15 +30,20 @@ formulas as images).
 Given a example.tex file like this:
 
     \documentclass{minimal}
+    \usepackage{amssymb,amsmath,cancel}
     \begin{document}
     $$
-        \int_a^b f(x)dx\,
+        \mathcal{L} = - \frac{1}{4} F_{\mu \nu} F^{\mu \nu} + i \bar{\psi} \cancel{D} \psi + h.c. + \bar{\psi}_i y_{ij} \psi_j \phi + h.c. + |D_\mu \phi|^2 - V(\phi)
     $$
     \end{document}
 
 you can convert it to PNG graphics using:
 
     latex2png example.tex
+
+which gives:
+
+![alt text](https://raw.githubusercontent.com/jeremiedecock/latex2png/v2/docs/examples/example9.png "Standard Model Lagrangian")
 
 See documentation directory (usually /usr/share/doc/latex2png) for more
 examples.
