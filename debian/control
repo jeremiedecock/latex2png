@@ -9,5 +9,5 @@ Homepage: http://www.jdhp.org
 Package: latex2png
 Architecture: all
 Depends: bash, grep, sed, texlive-latex-base, dvipng
-Description: Turn a LaTeX file into PNG
- Converts LaTeX files to PNG graphics (useful to create mathematical formulas as images).
+Description: Turn a LaTeX listing into PNG
+ Converts LaTeX listings to PNG graphics (useful to create mathematical formulas as images).
